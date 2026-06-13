@@ -81,7 +81,7 @@ Berdasarkan analisis data operasional historis periode **2016 \- 2018**:
 
 *Aspiring Data Engineer* | Makassar, Indonesia
 
-[LinkedIn](https://linkedin.com/in/taufiq-akbar-wardiana) | [GitHub](https://github.com/taufiqakbarw)
+[LinkedIn](https://linkedin.com/in/febrianto-eko-saputra) | [GitHub](https://github.com/febri-eko)
 
 ## **📌 Project Status**
 
