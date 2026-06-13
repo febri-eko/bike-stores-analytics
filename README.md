@@ -81,7 +81,7 @@ Berdasarkan analisis data operasional historis periode **2016 \- 2018**:
 
 *Aspiring Data Engineer* | Makassar, Indonesia
 
-[LinkedIn](https://www.linkedin.com/in/febrianto-eko-saputra-67b98b17a/) | [GitHub](https://github.com/febri-eko)
+[LinkedIn](https://www.linkedin.com/in/febrianto-eko-saputra) | [GitHub](https://github.com/febri-eko)
 
 ## **📌 Project Status**
 
