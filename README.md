@@ -1,6 +1,6 @@
 # **🚴‍♂️ Bike Stores Sales & Inventory Analytics**
 
-Proyek *Data Engineering* & *Business Intelligence* skala *End-to-End* menggunakan **Medallion Architecture** di atas **Google Cloud Platform (GCP)**. Proyek ini melakukan penarikan data dari Google Sheets (via JSON metadata), pembersihan data di BigQuery, hingga pemodelan dimensi (**Star Schema**) untuk dasbor interaktif **Looker Studio**.
+Proyek *Data Engineering* & *Business Intelligence* skala *End-to-End* menggunakan **Medallion Architecture** di atas **Google Cloud Platform (GCP)**. Proyek ini melakukan penarikan data dari Google Sheets (via JSON metadata), pembersihan data di BigQuery, hingga pemodelan dimensi (**Star Schema**) untuk dasbor interaktif **Data Studio**.
 
 ## **🛠️ Tech Stack**
 
@@ -11,11 +11,11 @@ Proyek *Data Engineering* & *Business Intelligence* skala *End-to-End* menggunak
 | **Data Warehouse** | Google BigQuery |
 | **Library Python Utama** | Pandas, google-cloud-bigquery, pandas-gbq, requests, pytz |
 | **Data Quality & Profiling** | ydata-profiling (Pandas Profiling) |
-| **Business Intelligence (BI)** | Looker Studio |
+| **Business Intelligence (BI)** | Data Studio |
 
 ## **📌 Alur Arsitektur Data (Medallion)**
 
-Google Sheets (Source) ──\> Bronze (Raw) ──\> Silver (Cleaned) ──\> Gold (Star Schema) ──\> Looker Studio
+Google Sheets (Source) ──\> Bronze (Raw) ──\> Silver (Cleaned) ──\> Gold (Star Schema) ──\> Data Studio
 
 1. **Bronze Layer (brz\_bike\_store)**: Mengambil data mentah secara dinamis menggunakan Python (Pandas) tanpa mengubah skema asli (raw\_ tables).  
 2. **Silver Layer (slv\_bike\_store)**: Pembersihan data, penanganan nilai kosong (*nulls*), penghapusan duplikasi, standarisasi nama kolom (*snake\_case*), dan konversi tipe data tanggal (DATE).  
@@ -55,7 +55,7 @@ Berikut adalah peta penataan berkas dan folder yang ada di dalam repositori ini:
 | **dim\_stores** | Entitas data fisik operasional cabang. | store\_id, store\_name, city, state |
 | **dim\_staffs** | Struktur internal tim penjualan dan manajerial. | staff\_id, first\_name, last\_name, active, manager\_id |
 
-## **📈 Temuan Utama Dasbor (Looker Studio)**
+## **📈 Dashboard (Data Studio)**
 
 Berdasarkan analisis data operasional historis periode **2016 \- 2018**:
 
